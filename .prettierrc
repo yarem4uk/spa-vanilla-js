@@ -1,7 +1,7 @@
 {
   "singleQuote": true,
   "brackingSpasing": "true",
-  "arrowParens": "avoid",
   "trailingComma": "es5",
-  "semi": true
+  "semi": false,
+  "jsxBracketSameLine": false
 }

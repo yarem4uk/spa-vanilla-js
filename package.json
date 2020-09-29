@@ -1,10 +1,10 @@
 {
-  "name": "nodejs-template",
+  "name": "spa-vanilla-js",
   "version": "1.0.0",
-  "description": "template",
+  "description": "spa vanilla js",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start": "nodemon --exec babel-node -- server.js"
   },
   "repository": {
     "type": "git",
@@ -36,6 +36,7 @@
     "prettier": "^1.19.1"
   },
   "dependencies": {
-    "lodash": "^4.17.15"
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
   }
 }

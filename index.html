@@ -2,18 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Single Page Application</title>
   <link rel="stylesheet" href="/assets/css/reset.css">
   <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 <body>
 
-  <nav>
-    <a class="nav__link" href="/">Dasboard</a>
-    <a class="nav__link" href="/posts">Posts</a>
-    <a class="nav__link" href="/settings">Settings</a>
+  <nav class="nav">
+    <a class="nav__link" href="/" data-link>Dasboard</a>
+    <a class="nav__link" href="/posts" data-link>Posts</a>
+    <a class="nav__link" href="/settings" data-link>Settings</a>
   </nav>
 
-  <script src="/assets/js/index.js"></script>
+  <div id="app"></div>
+
+  <script type="module" src="/assets/js/index.js"></script>
 </body>
 </html>
